@@ -4,9 +4,9 @@ trigger:
       - main
 
 variables:
-  VM_IP_PUBLICA: '20.230.10.118'
+  VM_IP_PUBLICA: '40.70.204.161'
 
-  IMAGE_NAME: '002agrupo9-sum3-imagen'
+  IMAGE_NAME: '002agrupo9-s8imagen'
 
   ACR_NAME: 'rc002agrupo9sum3'
 
@@ -24,7 +24,7 @@ stages:
     displayName: 'Deploy MySQL to VM'
 
     environment:
-      name: 'env-002agrupo9-sum3'
+      name: 'env-002agrupo-s8video'
       resourceType: VirtualMachine
 
     strategy:
