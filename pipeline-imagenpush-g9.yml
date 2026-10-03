@@ -6,8 +6,8 @@ trigger:
 variables:
   # Variables de entorno
   ACR_NAME: 'rc002agrupo9sum3' # Colocar el nombre de tu ACR
-  IMAGE_NAME: '002agrupo9-sum3-imagen' # Colocar el Nombre de Imagen
-  SERVICE_CONNECTION_NAME: 'sc-002agrupo9-sum3-container' # Colocar nombre del Service Connection ubicado en Docker Registry-- Azure Container Registry
+  IMAGE_NAME: '002agrupo9-s8imagen' # Colocar el Nombre de Imagen
+  SERVICE_CONNECTION_NAME: 'sc-002agrupo9-s8video-container' # Colocar nombre del Service Connection ubicado en Docker Registry-- Azure Container Registry
 
 jobs:
   - job: BuildAndPush
