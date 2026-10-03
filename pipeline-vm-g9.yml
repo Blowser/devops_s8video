@@ -5,16 +5,16 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  azureSubscription: 'sc-002agrupo9-sum3' # listo, el nombre de la service connection que voy a nombrar, de tipo Azure Resource Manager
+  azureSubscription: 'sc-002agrupo9-s8video' # listo, el nombre de la service connection que voy a nombrar, de tipo Azure Resource Manager
   location: 'eastus2' # listo
   resourceGroupName: 'DEVOPS_002A_GRUPO09' # listo, se reutiliza
-  virtualNetworkName: 'rv-002agrupo9-pipeline' # listo, lo crea
-  subnetName: 'sred-002agrupo9-pipeline' # listo, lo crea
+  virtualNetworkName: 'rv-002agrupo9-S8' # listo, lo crea
+  subnetName: 'sred-002agrupo9-S8' # listo, lo crea
   addressPrefix: '10.0.0.0/16'
   subnetPrefix: '10.0.1.0/24'
-  securityGroupName: 'nsg-002agrupo9-pipeline' #listo, lo crea
-  publicIpName: 'PIP-002A-GRUPO09' # listo, el nombre asignado
-  vmName: 'mv-002agrupo9-pipeline' # listo, el nombre asignado
+  securityGroupName: 'nsg-002agrupo9-S8' #listo, lo crea
+  publicIpName: 'PIP-002A-GRUPO09S8' # listo, el nombre asignado
+  vmName: 'mv-002agrupo9-S8' # listo, el nombre asignado
   vmSize: 'Standard_B2als_v2'  #  listo, SKU disponible en eastus2
   adminUsername: 'azureuser' #  listo, estándar
   adminPassword: 'Password1234$'  # Contraseña en texto plano (ajustar según necesidad)
